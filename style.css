@@ -1,0 +1,1157 @@
+.parent{
+
+height:100vh;
+width:100vw;
+
+
+}
+.title-header{
+
+background-color: white;
+display: flex;
+flex-direction: row;
+align-items: center;
+height:100px;
+width:100%;
+
+border-bottom: 3px solid #26C6DA;
+position: fixed;
+z-index: 1;
+top:0px;
+}
+.mango{
+margin-left: 70px;
+
+}
+.menu{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 200px;
+
+}
+.items{
+margin-left: 40px;
+font-size: 20px;
+font-weight: bolder;
+position: relative;
+}
+.item-content{
+
+display: none;
+margin-top: 38px;
+position: absolute;
+
+
+background-color:#26C6DA;
+
+
+
+}
+.item-menu{
+height: 50px;
+width:200px;
+
+display: none;
+display: flex;
+flex-direction: column;
+justify-content: center;
+    color:white;
+font-weight: bold;
+border-bottom: 1px solid white;
+}
+.items:hover .item-content{
+display: block;
+
+}
+
+
+.items:hover{
+color:#26C6DA;
+
+}
+.home-items{
+
+color:#26C6DA;
+margin-left: 40px;
+font-size: 20px;
+font-weight: bolder;
+
+}
+.wallpaper{
+height:700px;
+width:100%;
+background-image: url(images/frameworks.jpg);
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+display: flex;
+flex-direction: column;
+
+
+
+
+}
+
+.wall{
+
+display: flex;
+flex-direction: column;
+background-color: rgba(5, 5, 5, 0.805);
+margin-left: 20px;
+color:white;
+height:700px;
+width:45%;
+align-items: flex-start;
+justify-content: center;
+
+
+}
+.big-font{
+
+
+
+font-size: 60px;
+font-weight: bolder;
+}
+.wall-content{
+    display: flex;
+    flex-direction: column;
+margin-left: 40px;
+
+
+}
+.boths{
+
+font-weight: bolder;
+font-size: 20px;
+color:white;
+}
+.welcome{
+
+font-size: 18px;
+font-weight: bold;
+
+}
+.change{
+
+display: flex;
+flex-direction: row;
+margin-left: 100px;
+margin-top: 80px;
+height:300px;
+width:100%;
+font-family:'Open Sans',  sans-serif;
+
+
+}
+.constant{
+
+display: flex;
+flex-direction: column;
+height:300px;
+width:370px;
+margin-left: 30px;
+
+}
+.key{
+
+display: flex;
+flex-direction: row;
+
+
+}
+.key-note{
+
+display: flex;
+flex-direction: column;
+color:#707070;
+font-size: 18px;
+line-height: 1.5em;
+}
+.capitals{
+
+display: flex;
+flex-direction: column;
+font-size: 18px;
+color:#707070;
+line-height: 1.5em;
+
+}
+.accuracy{
+
+font-size: 18px;
+color:black;
+padding-bottom: 10px;
+
+}
+.amazing{
+height:400px;
+width:100%;
+background-color: #F8F8F8;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: relative;
+
+}
+.montage{
+position: absolute;
+
+left:955px;
+top:210px;
+}
+.popular{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+margin-right: 300px;
+font-size: 20px;
+color:#707070;
+
+}
+.world{
+font-size: 40px;
+color:black;
+font-weight: bolder;
+
+
+}
+.users{
+    color:#707070;
+    font-size: 20px;
+    font-weight: bolder;
+
+
+
+
+}
+
+.streaming{
+
+display: flex;
+flex-direction: column;
+height:550px;
+width: 100%;
+margin-top: 20px;
+}
+.series{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+
+}
+.place{
+
+display: flex;
+flex-direction: row;
+
+
+}
+.placement{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-size: 18px;
+margin-left: 20px;
+line-height: 1.5em;
+}
+.challenges{
+
+height:500px;
+width:100%;
+background-color: black;
+color:white;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+}
+.face{
+
+font-size: 40px;
+font-weight: bolder;
+color:white;
+
+}
+.indeed{
+
+font-size: 20px;
+color:#D8D8D8;
+
+margin-top: 20px;
+
+}
+.public{
+
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+margin-left: 200px;
+height:150px;
+width:100%;
+margin-top: 50px;
+
+
+}
+.private{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+height:200px;
+width:500px;
+font-size: 20px;
+margin-left: 50px;
+color:#FFFFFF;
+
+}
+.pros{
+
+display: flex;
+flex-direction: row;
+margin-left: 250px;
+font-size: 30px;
+font-weight: bolder;
+color:#FFFFFF;
+}
+.read{
+    height:60px;
+    width:150px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #5AA1E3;
+    margin-top: 10px;
+}
+.web{
+
+font-size: 40px;
+color:#222222;
+
+}
+.adult{
+font-size: 20px;
+margin-top: 20px;
+color:#707070;
+}
+.link{
+
+color:#26C6DA;
+
+}
+.software{
+
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+margin-left: 100px;
+font-family: 'opens-sans','sans-serif';
+position: relative;
+}
+.hardware{
+
+position: absolute;
+left:850px;
+top:150px;
+
+}
+.dynamic{
+font-size: 19px;
+color:#707070;
+margin-top: 50px;
+line-height: 1.5em;
+
+}
+.visual{
+font-size: 19px;
+color:#707070;
+
+}
+.work{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+font-size: 40px;
+font-weight: bolder;
+
+}
+.works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+color:#707070;
+font-size: 20px;
+
+}
+.article{
+
+height:600px;
+width:100%;
+margin-top: 100px;
+
+
+
+
+}
+.article-content{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.recent{
+
+font-size: 40px;
+font-weight: bold;
+
+}
+.both{
+
+color:#707070;
+margin-top: 20px;
+
+}
+.program{
+
+display: flex;
+flex-direction: row;
+height:485px;
+width:330px;
+
+
+}
+.word{
+
+    background-color: #F8F8F8;
+    margin-left: 30px;
+    margin-top: 20px;
+
+}
+.project{
+
+display: flex;
+flex-direction: column;
+
+
+}
+.language{
+
+display: flex;
+flex-direction: column;
+align-items: center;
+font-weight: bolder;
+margin-top: 30px;
+font-size: 22px;
+}
+.upgrade{
+
+font-size: 19px;
+line-height: 1.5em;
+color:#707070;
+margin-left: 20px;
+}
+.create{
+    height:200px;
+    width:350px;
+transition: all 0.3s ease-in-out;
+
+}
+.create:hover{
+
+transform:scale(1.1);
+
+
+
+}
+.date{
+height:15px;
+width:250px;
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-top: 50px;
+margin-left: 20px;
+
+}
+.end{
+
+display: flex;
+flex-direction: row;
+align-items: center;
+margin-left: 185px;
+}
+.developer{
+
+display: flex;
+flex-direction: column;
+height:500px;
+width:100%;
+position: relative;
+
+
+}
+.starts{
+
+position: absolute;
+left:-50px;
+top:160px;
+}
+.top{
+
+font-size: 40px;
+color:#222222;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 20px;
+}
+.topics{
+
+font-size: 21px;
+color:#707070;
+margin-top: 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.major-role{
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-size: 20px;
+margin-left: 270px;
+color:#707070;
+margin-top: 30px;
+line-height: 1.5;
+
+}
+.blue{
+background-color: #006CF3;
+height:220px;
+width:100%;
+color:#FFFFFF;
+display: flex;
+flex-direction: column;
+font-size: 35px;
+font-weight: bold;
+align-items: center;
+justify-content: center;
+position: relative;
+
+
+}
+.blue-content{
+    display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+margin-right: 150px;
+
+}
+.touch{
+position: absolute;
+
+
+left:1100px;
+
+}
+.touch-btn{
+background-color: white;
+    height:50px;
+width:200px;
+border-style: none;
+font-size: 15px;
+}
+.black{
+
+
+display: flex;
+flex-direction: row;
+background-color: #263238;
+height: 600px;
+width:100%;
+
+}
+.black-content{
+display: flex;
+flex-direction: column;
+margin-left: 120px;
+
+}
+.gets{
+
+color:white;
+font-weight: bolder;
+margin-top: 100px;
+font-size: 27px;
+margin-bottom: 40px;
+margin-left: 70px;
+}
+.our{
+display: flex;
+flex-direction: column;
+line-height: 1.5;
+margin-left: 10px;
+
+}
+.stable{
+
+margin-top: 10px;
+
+}
+.always{
+
+display: flex;
+flex-direction: row;
+color:#B3B3B3;
+font-size: 19px;
+}
+.rating{
+
+display: flex;
+flex-direction: column;
+color:#B3B3B3;
+font-size: 19px;
+line-height: 1.5;
+}
+.possible{
+
+display: flex;
+flex-direction: column;
+margin-left: 50px;
+}
+.form{
+display: flex;
+flex-direction: row;
+
+}
+.label{
+
+height:45px;
+width:150px;
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+margin-left: 30px;
+color: grey;
+margin-top: 20px;
+}
+.message{
+margin-top: 20px;
+margin-left: 30px;
+height:100px;
+width:330px;
+background-color: white;
+
+}
+.message-content{
+margin-left: 10px;
+margin-top: 10px;
+color:grey;
+
+
+}
+.label-content{
+
+margin-left: 10px;
+
+}
+.send{
+
+background-color:#26C6DA;
+height:40px;
+width:170px;
+color:white;
+display: flex;
+border-radius: 5px;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+margin-left: 30px;
+
+}
+.tutorial{
+
+
+display: flex;
+flex-direction: column;
+position: relative;
+
+}
+.unavailable{
+height:210px;
+width:350px;
+position: relative;
+background-color: rgb(35, 34, 34);
+
+margin-left: 60px;
+margin-top: 20px;
+color:white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.play{
+
+margin-left: 20px;
+
+}
+.video{
+
+display: flex;
+flex-direction: row;
+margin-top: 40px;
+z-index: 1;
+
+
+}
+.audio{
+
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+.info{
+margin-top: -7px;
+
+}
+.volume{
+
+display: flex;
+flex-direction: row;
+color:white;
+margin-top: 168px;
+height:40px;
+width:350px;
+
+align-items: center;
+background-color: rgb(35, 34, 34);
+position: absolute;
+position: relative;
+position: absolute;
+
+
+}
+.volumes{
+
+margin-left: 290px;
+position: absolute;
+z-index: 1;
+
+}
+.angle{
+margin-left: 320px;
+position: absolute;
+
+}
+.copy-rights{
+
+height:100px;
+width:100%;
+background-color: #212B30;
+color:#909DA4;
+display: flex;
+flex-direction: row;
+align-items: center;
+position: relative;
+
+}
+.social-media{
+display: flex;
+flex-direction: row;
+margin-left: 480px;
+
+}
+.copies{
+
+margin-left: 150px;
+
+font-size: 18px;
+}
+.arrow{
+left:1270px;
+position: absolute;
+margin-top: 15px;
+
+}
+.titles{
+
+display: none;
+height:80px;
+width:100vw;
+display: flex;
+flex-direction: row;
+}
+
+.title-bar{
+
+    display: flex;
+    flex-direction: row;
+
+}
+.small-menu{
+margin-left: 320px;
+display:flex ;
+flex-direction:column;
+justify-content: center;
+
+}
+
+.menu-card{
+height:50px;
+width:40px;
+
+}
+.big-menu{
+display: none;
+
+}
+.small-menu:hover .big-menu{
+
+display: block;
+
+
+}
+.mango-logo{
+height: 60px;
+width:100px;
+
+}
+@media (max-width:500px) {
+
+.title-header{
+display: none;
+
+}
+
+
+.titles{
+
+    display: block;
+
+    }
+    .titles{
+
+
+        height:80px;
+        width:100vw;
+        display: flex;
+        flex-direction: row;
+        }
+
+        .title-bar{
+
+            display: flex;
+            flex-direction: row;
+
+        }
+        .small-menu{
+        margin-left: 320px;
+        display:flex ;
+        flex-direction:column;
+        justify-content: center;
+
+        }
+
+        .menu-card{
+        height:50px;
+        width:40px;
+
+        }
+        .big-menu{
+        display: none;
+
+        }
+        .small-menu:hover .big-menu{
+
+        display: block;
+
+
+        }
+        .mango-logo{
+        height: 60px;
+        width:100px;
+
+        }
+        .wallpaper{
+            height:300px;
+            width:100vw;
+            background-image: url(images/frameworks.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+
+
+
+
+            }
+
+            .wall{
+
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(5, 5, 5, 0.805);
+            margin-left: 10px;
+            color:white;
+            height:300px;
+            width:50vw;
+            align-items: flex-start;
+            justify-content: center;
+
+
+            }
+            .big-font{
+
+
+
+            font-size: 20px;
+            font-weight: bolder;
+            }
+            .wall-content{
+                display: flex;
+                flex-direction: column;
+            margin-left: 20px;
+
+
+            }
+            .boths{
+
+            font-weight: bolder;
+            font-size: 10px;
+            color:white;
+            }
+}
+@media (max-width:250px) {
+
+    .title-header{
+    display: none;
+
+    }
+
+    .titles{
+
+    display: block;
+
+    }
+    .titles{
+
+
+        height:80px;
+        width:100vw;
+
+        }
+
+        .title-bar{
+
+            display: flex;
+            flex-direction: row;
+
+        }
+        .small-menu{
+        margin-left: 120px;
+        display:flex ;
+        flex-direction:column;
+        justify-content: center;
+
+        }
+
+        .menu-card{
+        height:50px;
+        width:40px;
+
+        }
+        .big-menu{
+        display: none;
+
+        }
+        .small-menu:hover .big-menu{
+
+        display: block;
+
+
+        }
+        .mango-logo{
+        height: 60px;
+        width:100px;
+
+        }
+        .wallpaper{
+            height:300px;
+            width:100vw;
+            background-image: url(images/frameworks.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+
+
+
+
+            }
+
+            .wall{
+
+            display: flex;
+            flex-direction: column;
+            background-color: rgba(5, 5, 5, 0.805);
+            margin-left: 10px;
+            color:white;
+            height:300px;
+            width:50vw;
+            align-items: flex-start;
+            justify-content: center;
+
+
+            }
+            .big-font{
+
+
+
+            font-size: 20px;
+            font-weight: bolder;
+            }
+            .wall-content{
+                display: flex;
+                flex-direction: column;
+            margin-left: 20px;
+
+
+            }
+            .boths{
+
+            font-weight: bolder;
+            font-size: 10px;
+            color:white;
+            }
+
+}
+@media (max-width:350px) {
+
+
+
+    .title-header{
+        display: none;
+
+        }
+
+        .titles{
+
+        display: block;
+
+        }
+        .titles{
+
+
+            height:80px;
+            width:100vw;
+
+            }
+
+            .title-bar{
+
+                display: flex;
+                flex-direction: row;
+
+            }
+            .small-menu{
+            margin-left: 180px;
+            display:flex ;
+            flex-direction:column;
+            justify-content: center;
+
+            }
+
+            .menu-card{
+            height:50px;
+            width:40px;
+
+            }
+            .big-menu{
+            display: none;
+
+            }
+            .small-menu:hover .big-menu{
+
+            display: block;
+
+
+            }
+            .mango-logo{
+            height: 60px;
+            width:100px;
+
+            }
+            .wallpaper{
+                height:300px;
+                width:100%;
+                background-image: url(images/frameworks.jpg);
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: flex;
+                flex-direction: column;
+
+
+
+
+                }
+
+                .wall{
+
+                display: flex;
+                flex-direction: column;
+                background-color: rgba(5, 5, 5, 0.805);
+                margin-left: 20px;
+                color:white;
+                height:400px;
+                width:50vw;
+                align-items: flex-start;
+                justify-content: center;
+
+
+                }
+                .big-font{
+
+
+
+                font-size: 20px;
+                font-weight: bolder;
+                }
+                .wall-content{
+                    display: flex;
+                    flex-direction: column;
+                margin-left: 40px;
+
+
+                }
+                .boths{
+
+                font-weight: bolder;
+                font-size: 10px;
+                color:white;
+                }
+
+
+
+
+}
+
